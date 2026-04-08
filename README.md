@@ -1,11 +1,11 @@
 # Simple ERC-20 Indexer
 
-This is an skeleton app that uses the Alchemy SDK rigged to Alchemy's Enhanced APIs in order to display all of an address's ERC-20 token balances.
+This is an skeleton app that uses the Alchemy SDK rigged to Alchemy's Enhanced APIs in order to display the balance of all ERC-20 tokens of an address.
 
 ## Set Up
 
-1. Install dependencies by running `npm install`
-2. Start application by running `npm run dev`
+1. Install dependencies by running `pnpm i`
+2. Start application by running `pnpm dev`
 
 ## Challenge
 
