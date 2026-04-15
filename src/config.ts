@@ -1,6 +1,11 @@
 import { createConfig, http } from "wagmi";
 import { sepolia } from "wagmi/chains";
-import { injected, metaMask, safe, walletConnect } from "wagmi/connectors";
+import {
+  // injected,
+  // metaMask,
+  // safe,
+  walletConnect,
+} from "wagmi/connectors";
 
 declare module "wagmi" {
   interface Register { config: typeof config; }
